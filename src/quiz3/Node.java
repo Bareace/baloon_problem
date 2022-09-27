@@ -1,0 +1,13 @@
+package quiz3;
+
+//Datayı tutmak için kullanılan Node sınıfı
+public class Node {
+
+    public int data;
+    public Node link;
+
+    public Node(int data) {
+        this.data = data;
+
+    }
+}
